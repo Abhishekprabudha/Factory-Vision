@@ -29,7 +29,7 @@ left, right = st.columns([1.3, 1])  # 60% left (video) / 40% right (chat)
 # ======================
 with left:
     if video_path.exists():
-        st.subheader("🎥 Warehouse Footage")
+        st.subheader("🎥 Factory Footage")
         st.video(str(video_path))
     else:
         st.warning("⚠️ warehouse_full.mp4 not found. Upload or place it in root directory to view.")
