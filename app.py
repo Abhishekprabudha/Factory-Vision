@@ -1,4 +1,4 @@
-import streamlit asA st
+import streamlit as st
 import json, numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
