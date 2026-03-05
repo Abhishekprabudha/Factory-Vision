@@ -1,14 +1,14 @@
-import streamlit as st
+import streamlit asA st
 import json, numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
 # --- PAGE SETUP ---
-st.set_page_config(page_title="Warehouse Vision Assistant", layout="wide")
+st.set_page_config(page_title="Factory Vision Assistant", layout="wide")
 
 # --- HEADER ---
-st.title("📦 Warehouse Vision Intelligence")
-st.caption("Visualize throughput from your warehouse video and interact with the analytics (offline mode).")
+st.title("📦 Factory Vision Intelligence")
+st.caption("Visualize throughput from your Factory video and interact with the analytics (offline mode).")
 
 # --- LOAD DATA ---
 summary_path = Path("throughput_summary.json")
